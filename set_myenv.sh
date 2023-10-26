@@ -1,0 +1,1 @@
+export CSL_PATH=/path/to/cosmosis-standard-library
