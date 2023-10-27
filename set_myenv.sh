@@ -1,4 +1,3 @@
-export CSL_PATH=/path/to/your/cosmosis-standard-library
-export REPO_PATH=/path/to/where/you/cloned/tutorial_wlcosmology
-pip install astropy
+export CSL_PATH=path/to/your/cosmosis-standard-library
+export REPO_PATH=path/to/your/tutorial_wlcosmology
 cd ini_inference
