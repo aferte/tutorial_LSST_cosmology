@@ -7,7 +7,7 @@ Instructions to run a full chain on sherlock:
 1. Connect to sherlock. I recommend working in $SCRATCH or in your space in $OAK.
 
 2. Install cosmosis environment and get cosmosis-standard-library by running the following commands:
-> sh_dev
+> sh_dev <
 (the following takes a while so we request an interactive node)
 We follow the instructions from here https://cosmosis.readthedocs.io/en/latest/intro/installation.html#conda-forge-from-scratch because the conda install does not work (it used to, at least until this summer - strange!)
 > wget -O Miniforge3.sh  https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
