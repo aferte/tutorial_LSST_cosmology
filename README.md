@@ -1,4 +1,4 @@
-# tutorial_wlcosmology
+# Tutorial KIPAC WL Cosmology
 
 Tutorial for KIPAC on cosmological inference with 3x2pt. 
 
