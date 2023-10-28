@@ -55,7 +55,7 @@ You can give your stanford email address in the header of the sh file to receive
 5. Submit the chain by running (exit sh_dev if you are still on the interactive node):
 > sbatch lssty10_32pt_run.sh
 
-This will write the chain in chain_lssty10_32pt_srd_nautilus.txt in tutorial_wlcosmogy/ini_inference.
+This will run a chain on 200 CPUs for a few hours, it will write the chain in chain_lssty10_32pt_srd_nautilus.txt in tutorial_wlcosmogy/ini_inference.
 To get contour plots, use tutorial_wlcosmogy/script_plot/plot_chain.py !!You need to edit line 134 to point to the correct chain's path!!
 
 Happy chain running!
