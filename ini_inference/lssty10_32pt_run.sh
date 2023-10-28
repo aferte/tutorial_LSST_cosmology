@@ -14,7 +14,7 @@ cd $SCRATCH
 source ./env_cosmosis/bin/activate
 source cosmosis-configure
 #!!change to location of your cosmosis-standard-library 
-export CSL_PATH=$SCRATCH
+export CSL_PATH=$SCRATCH/cosmosis-standard-library
 
 #go to the location of the cosmosis ini_files
 #!!change if you cloned it at a difference place
