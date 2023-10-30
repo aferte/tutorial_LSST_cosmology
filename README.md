@@ -11,8 +11,13 @@ Instructions to run a full chain on sherlock:
 The following takes a while so we request an interactive node:
 > sh_dev
 
-We follow the instructions from here https://cosmosis.readthedocs.io/en/latest/intro/installation.html#conda-forge-from-scratch because the conda install does not work (it used to, at least until this summer - strange!)
+The conda install does not work (it used to, at least until this summer - strange!). Joe recommends the following which I have not tested on sherlock:
 
+> conda install -c conda-forge mamba
+ 
+> mamba install -c conda-forge cosmosis cosmosis-build-standard-library
+
+Otherwise, we follow the instructions from https://cosmosis.readthedocs.io/en/latest/intro/installation.html#conda-forge-from-scratch which works well, although time consuming:
 
 > wget -O Miniforge3.sh  https://github.com/conda-forge/miniforge/releases/latest/download/Miniforge3-Linux-x86_64.sh
 
