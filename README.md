@@ -1,4 +1,4 @@
-# Tutorial KIPAC WL Cosmology
+# Tutorial on LSST Cosmology for KIPAC
 
 Tutorial for KIPAC on cosmological inference with 3x2pt: analyze a simulated LSST Y10 3x2pt data vector (with SRD specificities) in LCDM using CosmoSIS.  
 
